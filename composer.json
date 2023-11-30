@@ -1,0 +1,23 @@
+{
+    "name": "aoraa/php_for_laravel_developers",
+    "description": "Bla bla",
+    "type": "project",
+    "autoload": {
+        "classmap": [
+            "./"
+        ],
+        "files": [
+            "framework/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Aleix Oraa",
+            "email": "aoraa1@iesebre.com"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
